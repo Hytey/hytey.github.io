@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: beige;
+    scroll-behavior: smooth;
+}
+.Shade-Welcome-Screen{
+    /* background: linear-gradient(to bottom, red,yellow); */
+      /* background:   linear-gradient(to bottom, rgba(112, 112, 112, 0) 90%, white 100%), */
+    background: url('https://content3.jdmagicbox.com/comp/almora/c8/9999p5962.5962.190215172912.l3c8/catalogue/oyo-26557-ramda-guest-house-almora-hotels-p5xzk2z7qj.jpg');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Welcome-Screen{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.479);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rooms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.matangi-Welcome-Screen{
+  font-family: "Matangi", sans-serif;
+  padding: 10px;
+  text-align: center;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style:normal;
+  font-size: 200%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.774);
+}
+#Room-Pictures{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+#Room_Photo_Heading{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.774);
+}
+img{
+    margin-top: 10px;
+    height: 90%;
+    display: inline-block;
+    box-shadow:  0px 0px 10px blue;
+    padding: 10px;
+}
+#scroller{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+#Contact_Us{
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+iframe{
+    width: 50vw;
+    height: 50vh;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+    /* -webkit-text-stroke: 0.8px black; */
+}
+#Hotel_Map,#Book_A_Hotel{
+    font-size: 2rem;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.705);
+}
